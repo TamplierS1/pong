@@ -1,0 +1,20 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://res/fonts/dynamic_font.tres" type="DynamicFont" id=1]
+[ext_resource path="res://src/Score.gd" type="Script" id=2]
+
+[node name="Score" type="Label"]
+anchor_left = 0.5
+anchor_right = 0.5
+margin_left = -948.0
+margin_top = 10.0
+margin_right = -906.0
+margin_bottom = 25.0
+rect_scale = Vector2( 0.474894, 0.915254 )
+custom_fonts/font = ExtResource( 1 )
+text = "0"
+align = 1
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
